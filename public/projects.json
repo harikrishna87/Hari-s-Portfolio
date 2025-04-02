@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "IConnect Video Calling App",
+    "category": "Applications",
+    "image": "images/project-4.png",
+    "description": "A video calling app that allows users to connect with friends and family across the world in real-time. The app supports one-on-one and group video calls, as well as text messaging. It uses ZegoCloud technology for seamless video communication and has a user-friendly interface.",
+    "link" : "https://i-connect-video-calling-app.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "E-commerce Website",
+    "category": "Applications",
+    "image": "images/project-5.png",
+    "description": "A fully functional e-commerce website that allows users to browse and purchase products from various categories. The site features a shopping cart, user authentication, and payment processing. It uses a RESTful API to manage product data and user accounts, ensuring a smooth shopping experience.", 
+    "link" : "https://foodi-website-eta.vercel.app/Main_Doc/"
+  },
+  {
+    "id": 3,
+    "title": "Villa Agency",
+    "category": "Web design",
+    "image": "images/project-3.png", 
+    "description": "A modern and responsive website for a villa rental agency. The site showcases various villas available for rent, complete with images, descriptions, and pricing information. Users can filter villas based on their preferences and view detailed information about each property.",
+    "link" : "https://villa-agency-project.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Weather Forecast",
+    "category": "Web design",
+    "image": "images/project-1.png", 
+    "description": "A web application that provides weather forecasts for different locations. Users can search for a city and view the current weather conditions, as well as a 7-day forecast. The app uses the OpenWeatherMap API to fetch weather data and displays it in a user-friendly interface.",
+    "link" : "https://weather-forecast-woad-theta.vercel.app/"
+  },
+  {
+    "id": 5,
+    "title": "My Todo List",
+    "category": "Web design",
+    "image": "images/project-2.png", 
+    "description": "A simple and intuitive todo list application that allows users to create, edit, and delete tasks. Users can also mark tasks as completed and filter the list based on their status. The app uses local storage to save tasks, ensuring that they persist even after refreshing the page.", 
+    "link" : "https://my-to-do-list-eight-theta.vercel.app/"
+  }
+  ]
+  
