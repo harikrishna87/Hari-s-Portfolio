@@ -3,14 +3,10 @@ import { FaRegEye } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
-  // State to store project data and filtered projects
   const [projects, setProjects] = useState([]);
   const [filteredProjects, setFilteredProjects] = useState([]);
-
-  // State to store the selected category
   const [selectedCategory, setSelectedCategory] = useState('All');
 
-  // Load project data from projects.json
   useEffect(() => {
     fetch('/projects.json')
       .then(response => response.json())
@@ -21,7 +17,6 @@ const Portfolio = () => {
       .catch(error => console.error('Error loading project data:', error));
   }, []);
 
-  // Function to handle category filter selection
   const handleFilterClick = (category) => {
     setSelectedCategory(category);
     if (category === 'All') {
@@ -37,8 +32,6 @@ const Portfolio = () => {
       <header>
         <h2 className="h2 article-title">Portfolio</h2>
       </header>
-
-      {/* Filter buttons */}
       <ul className="filter-list">
         {['All', 'Web design', 'Applications'].map(category => (
           <li className="filter-item" key={category}>
@@ -52,8 +45,6 @@ const Portfolio = () => {
           </li>
         ))}
       </ul>
-
-      {/* Portfolio items */}
       <section className="projects">
         <ul className="project-list">
           {filteredProjects.map(project => (

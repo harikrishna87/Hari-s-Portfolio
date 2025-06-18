@@ -1,4 +1,3 @@
-
 const SkillItem = ({ title, value }) => {
   return (
     <li className="skills-item">

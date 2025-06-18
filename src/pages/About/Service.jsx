@@ -1,5 +1,3 @@
-
-
 const Service = ({ title, icon, description }) => {
   return (
     <li className="service-item">

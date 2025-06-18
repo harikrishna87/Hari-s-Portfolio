@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-
 import { useEffect, useState } from "react"
 import Testimonial from "./Testimonial";
 import Service from "./Service";
@@ -13,7 +11,7 @@ const servicesData = [
   {
     icon: "/images/a.png",
     title: "Frontend Development",
-    description: "Create interactive and responsive user interfaces using HTML, CSS, JavaScript, and React."
+    description: "Create interactive and responsive user interfaces using HTML, CSS, JavaScript, and ReactJs."
   },
   {
     icon: "/images/r.png",
@@ -44,14 +42,14 @@ const About = () => {
 
       <section className="about-text">
         <p>
-          Aspiring Full Stack Developer with expertise in front-end technologies (HTML, CSS, JavaScript)
-          and back-end frameworks (Node.js, Express). Proficient in building high-performance, scalable applications
-          with seamless API integration and efficient database management (SQL, MongoDB). Experienced in solving
-          complex challenges while maintaining a clean, maintainable codebase.
+          Aspiring Full Stack Web Developer with expertise in designing and maintaining responsive websites and web applications using HTML, CSS, JavaScript, TypeScript, React.js, Node.js, and Express.js. 
+          Proficient in database management with MongoDB and MySQL for efficient data storage and retrieval. Skilled in creating intuitive UI/UX and debugging to ensure seamless functionality. 
+          Collaborates effectively with designers and developers to transform concepts into functional solutions. Expert in Git and Visual Studio Code. Focused on continuous enhancement in performance, 
+          usability, and design.
         </p>
 
         <p>
-          Developed a Video Calling App using the MERN stack and a Restaurant Website using JavaScript.
+          Developed a IConnect Video Calling App using the MERN stack and a FoodDelight E-CommerceRestaurant Website using MERN Stack with TypeScript.
           Currently enhancing skills in React and RESTful APIs while collaborating with cross-functional teams
           to drive innovation. Passionate about developing robust, user-centric applications and seeking an opportunity
           to contribute technical expertise to dynamic projects.

@@ -1,5 +1,3 @@
-
-
 const TimelineItem = ({ title, date, description }) => {
   return (
     <li className="timeline-item">
