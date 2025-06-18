@@ -38,7 +38,7 @@ const Aside = () => {
             Veta Hari Babu
           </h1>
 
-          <p className="title">Web Developer</p>
+          <p className="title">Full Stack Web Developer</p>
         </div>
 
         <button 
